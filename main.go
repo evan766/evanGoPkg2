@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("main func of evanGoPkg2")
 
 	a := []int{1, 2, 3, 4, 5}
-	b := []int{10, 2, 3, 100, 20}
+	b := []int{10, 2, 3, 100, 2000}
 
 	c := utils.Intersect(a, b)
 
