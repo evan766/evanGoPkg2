@@ -1,5 +1,6 @@
 package utils
 
+// Intersect 求2个数组的交集
 func Intersect(a, b []int) (c []int) {
 	m := make(map[int]int)
 
